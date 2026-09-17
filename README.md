@@ -1,1 +1,1 @@
-# cis2232_f26_project_chappelle_aidan
+This application will allow the user to read and enter timings for motorsport races, including information such as sector times, lap times, driver names, track name and layout, car class, leaderboard positions, track conditions, weather, number of laps, flags thrown, and race duration. Up to 12 drivers can be measured. The application will calculate the delta differences between positions based on their respective times. The user can also look up drivers and see specific details about their performance.
