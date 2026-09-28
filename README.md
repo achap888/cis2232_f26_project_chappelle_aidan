@@ -40,7 +40,7 @@ Main Color:  Brescian Blue
 
 ## Calculation
 
-The calculation / processing needed when the player enters a new record will be to determine the winner.  The entry will be analyzed to ensure that one of the players has won three games and the winner will be added to the row of the database.
+The app will calculate the “delta”, or difference, between drivers’ lap times. The times will be used to determine drivers’ position on the leaderboard. The top 3 positions (or “podium”) will be presented to display the winners of the race.
 
 ## Report Details
 
