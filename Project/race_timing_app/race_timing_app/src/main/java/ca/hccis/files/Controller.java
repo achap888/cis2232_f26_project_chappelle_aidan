@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.nio.file.*;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Controls the overall flow of the program.
@@ -22,9 +21,10 @@ public class Controller {
 
     public static final int EXIT = 0;
 
-    public static final String MENU = "A) Add\n"
-            + "V) View\n"
-            + "X) eXit"
+    public static final String MENU = "1) Add" + System.lineSeparator()
+            + "2) Edit" + System.lineSeparator()
+            + "3) View" + System.lineSeparator()
+            + EXIT + ") Exit"
             + System.lineSeparator();
 
     public static final String MESSAGE_ERROR = "Error";
@@ -60,19 +60,22 @@ public class Controller {
 //        System.out.println(camperFromJson.toString());
 
 
-        String menuOption;
+        int menuOption;
 
         do {
-            menuOption = CisUtility.getInputString(MENU).toUpperCase();
+            menuOption = CisUtility.getInputInt(MENU);
 
             switch (menuOption) {
-                case "X":
+                case EXIT:
                     System.out.println(MESSAGE_EXIT);
                     break; //Break out of the loop as we're finished.
-                case "A":
+                case 1:
                     add();
                     break;
-                case "V":
+                case 2:
+                    edit();
+                    break;
+                case 3:
                     viewAll();
                     break;
                 default:
