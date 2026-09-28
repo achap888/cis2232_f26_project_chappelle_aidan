@@ -1,4 +1,4 @@
-\# Race Timing App
+# Race Timing App
 
 
 
@@ -6,7 +6,7 @@ CIS-2232 Project
 
 
 
-\## Development Team
+## Development Team
 
 
 
@@ -18,7 +18,7 @@ Quality Control:  John Raicent Aquino
 
 
 
-\## Description
+## Description
 
 
 
@@ -26,7 +26,7 @@ This application will allow the user to read and enter timings for motorsport ra
 
 
 
-\## Color
+## Color
 
 
 
@@ -34,7 +34,7 @@ Main Color:  Brescian Blue
 
 
 
-\## Required Fields
+## Required Fields
 
 
 
@@ -76,7 +76,7 @@ Main Color:  Brescian Blue
 
 
 
-\## Calculation
+## Calculation
 
 
 
@@ -84,7 +84,7 @@ The calculation / processing needed when the player enters a new record will be 
 
 
 
-\## Report Details
+## Report Details
 
 
 
