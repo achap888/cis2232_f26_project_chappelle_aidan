@@ -18,8 +18,9 @@ Main Color:  Brescian Blue
 
 ## Required Fields
 
-| id | int | Unique identifier for database table |
+| Field | Type | Description |
 | --- | --- | --- |
+| id | int | Unique identifier for database table |
 | raceDate | String | Date of race event |
 | createdDateTime | String | Date entered in the application |
 | driverNames | String | Names of drivers in race |
