@@ -23,7 +23,6 @@ Main Color:  Brescian Blue
 | id | int | Unique identifier for database table |
 | raceDate | String | Date of race event |
 | createdDateTime | String | Date entered in the application |
-| driverName | String | Temporary field to get input for driver name |
 | driverNamesTimes | HashMap<String, ArrayList<String>> | HashMap of names of drivers in race, as keys paired to their times stored in driverLapTimes |
 | weatherConditions | String | Weather conditions of the race day |
 | trackName | String | Name of track being raced |
